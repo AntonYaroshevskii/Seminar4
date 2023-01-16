@@ -51,9 +51,15 @@ Console.WriteLine("Сумма цифр в числе: " + sumNumber);*/
 //Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран. (числа берете любые)
 
 
-
-
-
+/*int[] num = nums(8);
+Console.WriteLine($"[{String.Join(",",num)}]");
 
 
 //---------метод------------
+int[] nums(int size){
+  int[] nums = new int[size];
+  for(int i = 0; i < size; i++){
+    nums[i] = new Random().Next(100);
+  }
+  return nums;
+}*/
